@@ -83,3 +83,64 @@
 
 //*7 ----> Write a program to swap two numbers without using third variable:
 
+// #include<stdio.h>
+// int main(){
+//     int a=5,b=10;
+//     printf("Before swap valuse a = %d,b=%d\n",a,b);
+//     a=a+b;
+//     b=a-b;
+//     a=a-b;
+//     printf("After swap values is a=%d,b=%d",a,b);
+    
+// }
+
+
+
+// * Write a program to print a temperature in ceisus and convert into fahreheit.
+
+
+    // #include<stdio.h>
+    // int main(){
+    //     int cel;
+    //     float feh=0.00;
+    //     printf("Enter the temperature in ceisus\n");
+    //     scanf("%d",&cel);
+    //     feh=(cel*1.8)+32;
+    //     printf("Temperature in fahreheit %f",feh);
+    // }
+
+
+    // * Write a program to insert marks of 5 subject and print their sum ,average.
+
+
+    // #include<stdio.h>
+    // int main(){
+    //     int eng,hin,math,chem,phy;
+    //     int total;
+    //     float average;
+    //     printf("Enter the marks of eng\n");
+    //     scanf("%d",&eng);
+    //     printf("Enter the marks of hin\n");
+    //     scanf("%d",&hin);
+    //     printf("Enter the marks of math\n");
+    //     scanf("%d",&math);
+    //     printf("Enter the marks of chem \n");
+    //     scanf("%d",&chem);
+    //     printf("Enter the marks of phy\n");
+    //     scanf("%d",&phy);
+    //     total=eng+hin+math+chem+phy;
+    //     printf("Total number =%d\n",total);
+    //     average=total/5;
+    //     printf("AVERAGE IS = %f",average);
+    // return 0;
+    // }
+
+
+    // * Write a c program to read secondes and convert them into hours,minutes and seconde.
+
+    #include<stdio.h>
+    int main(){
+        
+
+    }
+    
