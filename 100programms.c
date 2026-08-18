@@ -136,11 +136,74 @@ int main(){
     }
 
 
-    // * Write a c program to read secondes and convert them into hours,minutes and seconde.
+   // * Write a c program to read secondes and convert them into hours,minutes and seconde.
 
+    
     #include<stdio.h>
     int main(){
+    
+        int min,hours,seconde;
 
+
+printf("Enter the seconde\n");
+
+scanf("%d",&seconde);
+min=seconde/60;
+hours=min/60;
+min=min-hours*60;
+seconde=seconde%60; // % it is module operater used for print or find reminder;
+
+printf("The time is %d hours %d minutes %d secondes",hours,min,seconde);
 
     }
+
+
+
+//--->                                      LEVEL 2--CONDITIONS(if/else)
+
+
     
+
+//. Program 11  -->  Write a program to read anumber and cheak Whether it is even or odd.
+
+
+
+#include<stdio.h>
+int main(){
+int num;
+printf("Enter a Number\n");
+scanf("%d",&num);
+if(num%2==0){
+    printf("Given number is even");
+}
+else{
+    printf("Given number is odd");
+}
+
+
+}
+
+
+//program 12. ----->   Write a program to cheak the given number is positive negitive or zero.
+
+
+#include<stdio.h>
+int main(){
+int num;
+printf("Enter a number \n");
+scanf("%d",&num);
+if(num<0){
+    printf("Given number is Negitive\n");
+}
+else if(num>0)
+{
+    printf("Given Number is Positive\n");
+}
+else {
+    printf("Given Number is Zero");
+}
+return 0;
+}
+
+
+
