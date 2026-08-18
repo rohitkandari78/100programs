@@ -206,7 +206,7 @@ return 0;
 }
 
 
- //program 13. -----> rite a prgram to read three numbers and find the largest among them.
+ //program 13. -----> Write a program to read three numbers and find the largest among them.
 
 #include<stdio.h>
 int main(){
@@ -230,3 +230,31 @@ else{
     printf("largest number is %d\n",lar);
 }
 }
+
+
+ //Program 14. ---> Write a program to read three numbers and find the smallest among them.
+
+#include<stdio.h>
+int main(){
+    int smallest,num1,num2,num3;
+    printf("Enter first number\n");
+    scanf("%d",&num1);
+     printf("Enter first number\n");
+    scanf("%d",&num2);
+     printf("Enter first number\n");
+    scanf("%d",&num3);
+    if(num1>num2){
+        smallest=num2;
+    }
+    else{
+        smallest=num1;
+    
+    }
+    if(num3<smallest){
+        printf("Smallest number is %d\n",num3);
+    }
+    else{
+        printf("Smallest Number is %d",smallest);
+    }
+}
+
