@@ -317,3 +317,28 @@ int main(){
 
  
 
+ // Program 18. -----> Write a program to read the marks of student and print the grade (A,B,C,D,Fail)
+
+ #include<stdio.h>
+ int main(){
+    int marks;
+printf("Enter the marks \n");
+scanf("%d",&marks);
+if(marks>=90){
+    printf("Grade A");
+}
+else if(marks==75&&marks<90){
+    printf("grade B");
+}
+if(marks>=65&&marks<75){
+    printf("grade is C");
+}
+else if(marks==50&&marks<65){
+    printf("grade D");
+
+}
+else{
+    printf("FAil");
+}
+ }
+
