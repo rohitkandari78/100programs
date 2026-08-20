@@ -300,5 +300,20 @@ int main(){
 
     #include<stdio.h>
     int main(){
+        char ch;
+        printf("Enter a value \n");
+        scanf("%c",&ch);
+        if(ch>='0'&&ch<='9'){
+            printf("Given value is a digit \n ");
+        }
+        else if(ch>='a'&&ch<='z'||ch>='A'&&ch<='Z'){
+            printf("Given value is alphabate");
+        }
+        else{
+            printf("Given value is speical symbol");
+        }
 
     }
+
+ 
+
