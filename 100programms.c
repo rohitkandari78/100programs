@@ -317,7 +317,7 @@ int main(){
 
  
 
- // Program 18. -----> Write a program to read the marks of student and print the grade (A,B,C,D,Fail)
+   // Program 18. -----> Write a program to read the marks of student and print the grade (A,B,C,D,Fail)
 
  #include<stdio.h>
  int main(){
@@ -342,3 +342,57 @@ else{
 }
  }
 
+
+
+
+      //Program 19.  ---> Write a program to read a number and cheak Whether it is divisible by both 3 and 5.
+
+
+#include<stdio.h>
+int main(){
+    int num;
+    printf("Enter a Number \n");
+    scanf("%d",&num);
+    if(num%3==0&&num%5==0){
+        printf("Given number divisible by 3,5");
+    }
+    else{
+        printf("Not divisible by 3,5 both");
+    }
+}
+
+
+     //Program 20.  ---> Write a program to read the age of a person and cheak Whether they are eligible to vote.
+      
+
+     #include<stdio.h>
+     int main(){
+        int age;
+        printf("Enter age ");
+        scanf("%d",&age);
+        if(age<18){
+            printf("person can not vote ");
+        }
+        else if (age>=18){
+            printf("person can vote ");
+        }
+     }
+
+
+
+
+
+
+    //Program 21 ---> Write a program display all the natural numbers from 1 to n.
+
+
+
+    #include<stdio.h>
+    int main(){
+        int n,i;
+        printf("Enter a number \n");
+        scanf("%d",&n);
+        for(i=0;i<=n;i++){
+            printf("%d\n",n);
+        }
+    }
