@@ -5,6 +5,7 @@ int main(){
 
 
 
+
 // 2 --> Write a program to read two numbers and print their sum.
 
 #include<stdio.h>
@@ -15,6 +16,8 @@ int main(){
     sum=a+b;
     printf("Sum of Two number %d",sum);
 }
+
+
 
 
 
@@ -49,6 +52,8 @@ printf("the area of given circle is %f\n",area);
 }
 
 
+
+
 // *5 ---> Write a program to print length and breadth of a rectangle and print its area:
 
 
@@ -62,6 +67,8 @@ int main(){
     area=len*brt;
     printf("Area of given rectangle = %d",area);
 }
+
+
 
 
 // *6 --->. Write a program to swap two numbers using third variable;
@@ -79,6 +86,8 @@ int main(){
     printf("After swap b is %d",b);
 
 }
+
+
 
 
 // *7 ----> Write a program to swap two numbers without using third variable:
@@ -110,6 +119,8 @@ int main(){
     }
 
 
+
+
     // * Write a program to insert marks of 5 subject and print their sum ,average.
 
 
@@ -134,6 +145,8 @@ int main(){
         printf("AVERAGE IS = %f",average);
     return 0;
     }
+
+
 
 
    // * Write a c program to read secondes and convert them into hours,minutes and seconde.
@@ -164,6 +177,8 @@ printf("The time is %d hours %d minutes %d secondes",hours,min,seconde);
 
     
 
+
+
 //. Program 11  -->  Write a program to read anumber and cheak Whether it is even or odd.
 
 
@@ -182,6 +197,8 @@ else{
 
 
 }
+
+
 
 
 //program 12. ----->   Write a program to cheak the given number is positive negitive or zero.
@@ -204,6 +221,8 @@ else {
 }
 return 0;
 }
+
+
 
 
  //program 13. -----> Write a program to read three numbers and find the largest among them.
@@ -232,6 +251,8 @@ else{
 }
 
 
+
+
  //Program 14. ---> Write a program to read three numbers and find the smallest among them.
 
 #include<stdio.h>
@@ -257,6 +278,10 @@ int main(){
         printf("Smallest Number is %d",smallest);
     }
 }
+
+
+
+
 
      // program 15. ---> write a program to cheak leap year or not.
 
@@ -295,6 +320,8 @@ int main(){
 
 
 
+
+
       // program 17.----> Write a program to input a value and  check whether it is an alphabet,digit,special symbol.
 
 
@@ -316,6 +343,8 @@ int main(){
     }
 
  
+
+
 
    // Program 18. -----> Write a program to read the marks of student and print the grade (A,B,C,D,Fail)
 
@@ -345,6 +374,8 @@ else{
 
 
 
+
+
       //Program 19.  ---> Write a program to read a number and cheak Whether it is divisible by both 3 and 5.
 
 
@@ -360,6 +391,8 @@ int main(){
         printf("Not divisible by 3,5 both");
     }
 }
+
+
 
 
      //Program 20.  ---> Write a program to read the age of a person and cheak Whether they are eligible to vote.
@@ -399,7 +432,8 @@ int main(){
 
 
 
-   // Program 22 ----> Write a program display aal the natural numbers 1 to n in reverse order.
+
+   //Program 22 ----> Write a program display aal the natural numbers 1 to n in reverse order.
 
    #include<stdio.h>
    int main(){
@@ -410,3 +444,55 @@ int main(){
         printf("%d\n",i);
     }
    }
+
+
+
+
+  //program  23.---> Write a program to print even numbers from 1 to n.
+
+  #include<stdio.h>
+  int main(){
+    int i,n;
+    printf("Enter the value of n \n");
+    scanf("%d",&n);
+    for(i=0;i<=n;i++){
+        if(i%2==0){
+      printf("%d\n",i);
+    }
+  }
+}
+
+
+
+
+  //program  24.---> Write a program to print odd numbers from 1 to n.
+
+#include<stdio.h>
+int main(){
+  int i,n;
+  printf("Enter the value of n\n");
+  scanf("%d",&n);
+  for(i=0;i<=n;i++){
+    if(i%2!=0){
+      printf("%d\n",i);
+    }
+  }
+}
+
+
+
+
+   //program 25. ---> Write a program to find the sum of all natural numbers from 1 to n.
+
+  #include<stdio.h>
+  int main(){
+    int i,n,sum;
+    printf("Enter the value of n");
+    scanf("%d",&n);
+    for(i=0;i<=n;i++){
+    sum=i+
+    }
+  }
+
+
+  
