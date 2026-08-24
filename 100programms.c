@@ -484,17 +484,16 @@ int main(){
 
    //program 25. ---> Write a program to find the sum of all natural numbers from 1 to n.
 
-  #include<stdio.h>
+
+#include<stdio.h>
   int main(){
-    int i,n,sum=i;
+    int i,n,sum=0;
     printf("Enter the value of n\n");
     scanf("%d",&n);
-     while(i<=n){
-        sum+1==sum;
+ for(i=1;i<=n;i++){
+    sum=sum+i;
     }
- for(i=0;i<=n;i++){
-    printf("%d\n",sum);
-    }
+     printf("%d\n",sum);
   }
 
 
